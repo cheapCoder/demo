@@ -1,7 +1,6 @@
-// import { Button, Tag } from "@shoplazza/sds";
-import { Button, Tag } from "antd";
-import "@shoplazza/sds/dist/@shoplazza/sds.css";
+import { Button } from "antd";
 import "antd/dist/antd.css";
+import React from "react";
 import { useState } from "react";
 import CopyToClipboard from "react-copy-to-clipboard";
 

@@ -1,7 +1,7 @@
 ---
 // import Footer from '../../components/Footer.astro';
 import CopyToClipboard from "react-copy-to-clipboard";
-import Test from "../components/Test";
+import Antd from "../components/Antd";
 import Step from "../components/Step";
 import Sds from "../components/Sds";
 
@@ -19,7 +19,7 @@ const value = "click to copy";
         {value}
     </button>
 </CopyToClipboard> -->
-<!-- <CopyToClipboard
+<CopyToClipboard
 	client:load
 	text={value}
 	onCopy={() => {
@@ -30,8 +30,8 @@ const value = "click to copy";
 	</button>
 </CopyToClipboard>
 
-<Test client:load />
+<Antd client:load />
 
-<Step client:load /> -->
+<Step client:load />
 
 <Sds client:load />

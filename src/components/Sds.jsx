@@ -1,5 +1,6 @@
-import * as Sds from "hengna";
-// import * as Sds from "@shoplazza/sds";
+// import * as Sds from "hengna";
+// import "hengna/dist/antd.less";
+import * as Sds from "@shoplazza/sds";
 import "@shoplazza/sds/dist/@shoplazza/sds.css";
 import { useState } from "react";
 import CopyToClipboard from "react-copy-to-clipboard";
